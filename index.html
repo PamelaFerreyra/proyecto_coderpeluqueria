@@ -6,30 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Peluquería CÓDIGO</title>
         <script src="https://kit.fontawesome.com/15c07a3e58.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="shortcut icon" href="./assets/img/FAVICON-TIJERAS-01.png"> 
     </head>
 
     <body class="body">
-     <header class="header">
-        <div class="contenedorlogo">
-           <a href="#"><img clase= "logo" src="./assets/img/logo_negro.png" alt="logo"></a>
-        </div>
-
-        <nav class="navegacion">
-          <ul>
-          <li class="items"><a class="linknavegacion" href="#">Inicio</a></li>
-          <li class="items"><a class="linknavegacion" href="./pages/servicios.html">Servicios</a></li>
-          <li class="items"><a class="linknavegacion" href="./pages/trabajos.html">Trabajos</a></li>
-          <li class="items"><a class="linknavegacion" href="./pages/nosotros.html">Nosotros</a></li>
-          <li class="items"><a class="linknavegacion" href="./pages/contacto.html">Contacto</a></li>
-        </ul>
-        </nav>
-
-        <section>
-            <div class="ContenedorTituloHeader">
-                <h1>PELUQUERÍA UNISEX</h1>
-            </div>
-        </section>
+        <header class="header container-fluid sticky-top" >
+        
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+              
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo_blanco-04.png" height="100">
+                  </a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                  
+                       <ul class="navbar-nav w-100 justify-content-end">
+  
+                       <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
+                        </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                          </li>
+                      
+  
+                       </ul>
+                     </div>
+                </div>
+            </nav>
 
       </header> 
       
@@ -63,7 +78,7 @@
                 <p>Horarios: lunes a sádados: 11am a 19pm.</p>
                 <p>Teléfonos: 4827-5346</p>
                 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5113640931063!2d-58.4081622!3d-34.5912286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3963892c0b%3A0xdb3cecfc3ec2a8f1!2zQ8OTRElHTyBQZWx1cXVlcsOtYQ!5e0!3m2!1ses-419!2sar!4v1679403058508!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
                 
 
 
@@ -76,12 +91,44 @@
      </main>
 
      <footer class="footer">
-        <div>
-            <a class=linkredes href="https://www.instagram.com/peluqueriacodigo/" target="_blank"><i class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i><!--<img src="" alt="instagram">--></a>
-            <a class=linkredes href="https://www.facebook.com/PeluqueriaCodigo" target="_blank"><i class="fa-brands fa-facebook-f fa-2x" style="color: #ffffff;"></i></i><!--<img src="" alt="facebook">--></a>
+        <div class="container">
+            <div class="footer-row">
+
+                <div class="footer-links">
+                    <h6>Contacto</h6>
+                    <ul>
+                        <li>Dirección</li>
+                        <p>Gallo 1679, Balvanera.</p>
+                        <li>Teléfonos</li>
+                        <p>4827-5346</p>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h6>Horarios</h6>
+                    <ul>
+                        <li>Lunes a sádabos</li>
+                        <p>11:00 hs - 19:00 hs.</p>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h6>Seguinos</h6>
+                    <div class="redes.sociales">
+                        <a class=linkredes href="https://www.instagram.com/peluqueriacodigo/" target="_blank"><i class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i><!--<img src="" alt="instagram">--></a>
+                        <a class=linkredes href="https://www.facebook.com/PeluqueriaCodigo" target="_blank"><i class="fa-brands fa-facebook-f fa-2x" style="color: #ffffff;"></i></i><!--<img src="" alt="facebook">--></a>
+                    </div>
+
+                    </ul>
+                </div>
+
+            </div>
+
         </div>
+        
         <p>todos los derechos reservados©- Pamela Ferreyra</p>
      </footer>
 
+     <script src="./js/bootstrap.bundle.min.js"></script> 
     </body>
 </html>

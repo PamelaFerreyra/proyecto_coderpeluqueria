@@ -6,39 +6,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Peluquería CÓDIGO</title>
         <script src="https://kit.fontawesome.com/15c07a3e58.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="shortcut icon" href="../assets/img/FAVICON-TIJERAS-01.png">
     </head>
 
     <body class="body">
-     <header class="header">
-        <div class="contenedorlogo">
-           <a href="#"><img clase= "logo" src="./assets/img/logo_negro.png" alt="logo"></a>
-        </div>
-
-        <nav class="navegacion">
-          <ul>
-          <li class="items"><a class="linknavegacion" href="../index.html">Inicio</a></li>
-          <li class="items"><a class="linknavegacion" href="servicios.html">Servicios</a></li>
-          <li class="items"><a class="linknavegacion" href="trabajos.html">Trabajos</a></li>
-          <li class="items"><a class="linknavegacion" href="#">Nosotros</a></li>
-          <li class="items"><a class="linknavegacion" href="contacto.html">Contacto</a></li>
-        </ul>
-        </nav>
-
-        <section>
-            <div class="ContenedorTituloHeader">
-                <h1>PELUQUERÍA UNISEX</h1>
-            </div>
-        </section>
-
-      </header> 
+        <header class="header container-fluid sticky-top" >
+        
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+              
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo_blanco-04.png" height="100">
+                  </a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                  
+                       <ul class="navbar-nav w-100 justify-content-end">
+    
+                       <li class="nav-item">
+                          <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./trabajos.html">Trabajos</a>
+                        </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                          </li>
+                      
+    
+                       </ul>
+                     </div>
+                </div>
+            </nav>
     </header> 
 
-     <main>
+     <main class="maindecontacto">
         <h1>Contactanos</h1>
-        <h2>¿Tenés alguna consulta o queres sacar un turno? Escribinos.</h2>
-        <img src="../assets/img/Difusor_agua.jpg" alt="imagen de peluquería">
-        <form action="">
+        <h4>¿Tenés alguna consulta o queres sacar un turno? Escribinos.</h4>
+        <!--<img src="../assets/img/Difusor_agua.jpg" alt="imagen de peluquería"> -->
+         <!-- MI FORMULARIO<form action="">
             <div>
                 <p>Nombre y apellido</p>
             <input type="text"placeholder="ingrese su nombre y apellido"required>
@@ -54,8 +67,19 @@
                 <input type="submit" value="enviar">
             </div>
             
-        </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5113640931063!2d-58.4081622!3d-34.5912286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3963892c0b%3A0xdb3cecfc3ec2a8f1!2zQ8OTRElHTyBQZWx1cXVlcsOtYQ!5e0!3m2!1ses-419!2sar!4v1679403058508!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </form> -->
+        <div class=="mb-3"  class="FormularioContacto">
+            <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Coloca tu nombre y apellido">
+
+            <label for="exampleFormControlInput1" class="form-label">Servicio</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Coloca servicio deseado">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Hacenos tu consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5113640931063!2d-58.4081622!3d-34.5912286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3963892c0b%3A0xdb3cecfc3ec2a8f1!2zQ8OTRElHTyBQZWx1cXVlcsOtYQ!5e0!3m2!1ses-419!2sar!4v1679403058508!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
      </main>
 
@@ -67,5 +91,6 @@
         <p>todos los derechos reservados©- Pamela Ferreyra</p>
      </footer>
 
+     <script src="../js/bootstrap.bundle.min.js"></script> 
     </body>
 </html>

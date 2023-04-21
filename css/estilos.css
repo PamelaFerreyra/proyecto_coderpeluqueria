@@ -149,7 +149,7 @@
 }
 
 .footer{
-    height: 40vh;
+    height: 30vh;
     background-color: rgb(0, 0, 0);
     padding: 20px 0;
     font-size: 12px;
@@ -168,11 +168,14 @@
     
 }
 
-.footer-links p{ 
+/*
+.footer-links ul li p{ 
+    display: block;
     text-align: left;
+    padding: bottom 5px;
 
 }
-
+*/
 .footer-links h6{
     padding-bottom: 5px;
     font-weight: 500;
@@ -181,4 +184,84 @@
 }
 
 
+/*Estilados de página TRABAJOS*/
+.main.trabajos{
+    text-align: center;
+    display: inline-block;
+    padding-top: 50px;
+}
+.fila.galeria{
+    width: 30%;
 
+}
+.columna{
+    width: 50%;
+}
+
+.imagenes.galeria {
+    width: 100%;
+}
+}
+
+
+.main-nosotros{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.sobre-nosotros{
+    background: url(../assets/img/Corte.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.contenedor-nosotros{
+    width: 55%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    padding: 150px;
+
+}
+
+.contenedor-nosotros h2{
+    margin-bottom: 30px;
+}
+
+.contenedor-nosotros h4{
+    margin-bottom: 30px;
+}
+
+.contenedor-nosotros p{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width-1200px){
+    .contenedor-nosotros{
+        padding: 80px;
+    }
+  
+}
+    
+@media screen and (max-width-1000px){
+    .sobre-nosotros{
+        background-size: 100px;
+        padding: 100px 40px;
+    }
+    .contenedor-nosotros{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width-600px){
+    .sobre-nosotros{
+        padding: 0;
+    }
+    .contenedor-nosotros{
+        width: 100%;
+    }
+}

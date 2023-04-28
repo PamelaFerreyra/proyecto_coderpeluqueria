@@ -181,40 +181,46 @@
 /*Estilados Nosotros*/
 
 .main-nosotros{
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
+    margin-top: 0;
 }
 
 .sobre-nosotros{
     background: url(../assets/img/Corte.jpg) no-repeat left;
-    background-size: 55%;
-    background-color: white;
-    overflow: hidden;
-    padding: 100px 0;
+    background-size: 55%; 
+    background-color: rgb(255, 255, 255);
+    /*no se cómo hacer que la imágen llegue hasta el borde del header porque el contenedor ya ocupa el total*/
 }
 
 .contenedor-nosotros{
-    width: 55%;
+    width: 50%;
     float: right;
     background-color: rgb(255, 255, 255);
     padding: 150px;
-
+    
 }
 
-.contenedor-nosotros h2{
+.contenedor-nosotros h1{
     margin-bottom: 30px;
-}
-
-.contenedor-nosotros h4{
-    margin-bottom: 30px;
+    font: color black;
 }
 
 .contenedor-nosotros p{
     margin-bottom: 30px;
 }
+
+.contenedor-nosotros h2{
+    margin-bottom: 30px;
+    font: color black;
+    
+}
+.contenedor-nosotros li i{
+    margin-right: 10px
+}
+
+
 
 /*Estilados de FOOTER*/
 

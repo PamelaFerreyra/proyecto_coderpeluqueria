@@ -237,7 +237,11 @@ footer {
     align-items: center;
     padding-left: 50px;
   }
-  
+  .footer-izquierda img {
+    height: 85px;
+    margin-right: 10px;
+    align-items: center;
+  }
   
   .footer-datos i{
     padding-left: 20px;
@@ -246,7 +250,6 @@ footer {
 
   .footer-datos li{
     font-size: small;
-
   }
 
   .social-iconos {
@@ -273,7 +276,4 @@ footer {
    
   }
   
-  .footer-izquierda img {
-    height: 100px;
-    margin-right: 10px;
-  }
+  

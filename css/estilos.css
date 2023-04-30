@@ -168,15 +168,25 @@
     flex-basis: calc(25% - 10px);
     margin-bottom: 20px;
     overflow: hidden;
-    background-color: brown;
   }
   
   .imagen-galeria img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-color: rgba(255, 255, 255, 0.76);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .imagen-galeria img:hover{
+    opacity:0.6;
   }
   
+ 
 
 /*Estilados Nosotros*/
 

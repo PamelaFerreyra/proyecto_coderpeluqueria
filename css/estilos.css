@@ -177,8 +177,6 @@
     background-color: rgba(255, 255, 255, 0.76);
     opacity: 1;
     transition: opacity 0.5s ease;
-    display: flex;
-    flex-wrap: wrap;
     
   }
 
@@ -190,18 +188,22 @@
 
 /*Estilados Nosotros*/
 
+.nosotros{
+    background-color: aquamarine;
+}
+
 .main-nosotros{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0;
+    margin: 0;
 }
 
 .sobre-nosotros{
+    width: 100%;
     background: url(../assets/img/Corte.jpg) no-repeat left;
     background-size: 55%; 
-    background-color: rgb(255, 255, 255);
-    /*no se cómo hacer que la imágen llegue hasta el borde del header porque el contenedor ya ocupa el total*/
+    padding-left: 0;
 }
 
 .contenedor-nosotros{
@@ -209,7 +211,6 @@
     float: right;
     background-color: rgb(255, 255, 255);
     padding: 150px;
-    
 }
 
 .contenedor-nosotros h1{
@@ -228,6 +229,10 @@
 }
 .contenedor-nosotros li i{
     margin-right: 10px
+}
+
+.mapa-nosotros{
+    margin: 0;
 }
 
 

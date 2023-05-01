@@ -79,27 +79,63 @@
 
 }
 
-.Secciones{
+/*Estilados de INICIO/
+
+/*Sección TRABAJOS en INICIO*/
+.trabajos-main{
     text-align: center;
     display: inline-block;
-    padding-top: 50px; /*espacio entre header y sección de cards*/
-    
-
 }
 
-.card{
-    width: 30%;
-    text-align: center;
-    display: inline-block;
-    padding-bottom: 5%;
+.trabajos-main h1{
+    padding-top: 50px; 
+    padding-bottom: 30px;
+    font-size: xx-large
 }
-
-.card img{
+.trabajos-main{
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    border-radius: 5%;
+    text-align: center; 
 }
+
+.col-lg-1{
+    margin: auto !important;
+    width: fit-content;
+    align-items: center;
+}
+
+.col-lg-1 h2{
+    font-size: medium;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/*Sección NOSOTROS en INICIO*/
+
+.nosotros-inicio{
+    background-color: #000000;
+    height: 50%;
+}
+
+.nosotros-inicio h2{
+    color: white;
+    font-size: x-large;
+    padding-top: 100px;
+    text-align:left;
+    padding-left: 30px;
+}
+
+.nosotros-inicio p{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+
+
 
 .teesperamos h2{
     text-align: left;
@@ -234,6 +270,8 @@
 .mapa-nosotros{
     margin: 0;
 }
+
+/*Estilos de sección TRABAJOS EN MAIN*/
 
 
 

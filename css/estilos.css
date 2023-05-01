@@ -27,7 +27,6 @@
 
  .contenedorlogo{
     display: inline-block;
-   /*background-color: rgb(221, 12, 12);*/
     width: 45%;
     height: 30%;
     padding-left: 5%;
@@ -79,12 +78,42 @@
 
 }
 
+/*ICONO WHATSAPP*/
+
+.boton-whatsapp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 70px;
+    right: 30px;
+    background: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0n, 0, 0.3);
+    z-index: 100;
+}
+
+.boton-whatsapp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: white;
+
+}
+
+
+
 /*Estilados de INICIO/
 
 /*Sección TRABAJOS en INICIO*/
+
+
 .trabajos-main{
     text-align: center;
     display: inline-block;
+    padding-bottom: 50px;
 }
 
 .trabajos-main h1{
@@ -113,52 +142,52 @@
 /*Sección NOSOTROS en INICIO*/
 
 .nosotros-inicio{
-    background-color: #000000;
-    height: 50%;
+    padding: 50px;   
 }
 
 .nosotros-inicio h2{
-    color: white;
+    color:black;
     font-size: x-large;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align:left;
-    padding-left: 30px;
+    padding-left: 50px;
+    text-align: center;
 }
 
 .nosotros-inicio p{
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: medium;
     text-align: justify;
-    padding-top: 30px;
-    padding-left: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 100px;
     padding-right: 50px;
 }
 
+/*Sección CONTACTANOS en INICIO*/
 
-
-
-.teesperamos h2{
-    text-align: left;
-    padding-left: 25%;
+.contactanos-inicio{
+    padding-top: 50px;
+    
+    background-color: #000000;
 }
 
-.teesperamos p{
-    text-align: left;
-    padding-left: 25%;
+
+.contactanos-inicio h2{
+    text-align: center;
+    color: #fff;
+
+}
+
+.contactanos-inicio p{
+    text-align: center;
     
 }
 
-
-.infodecontacto{
-    text-align: left;
-    padding-left: 10%;
-    
-}
-
-
-
-.linkredes{
-    padding-left: 10%;
+.redes-inicio{
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
 
 }
 
@@ -279,6 +308,7 @@
 
 footer {
     background-color: #000000;
+    width: 100%;
     color: #fff;
     display: flex;
     justify-content: space-between;

@@ -15,18 +15,17 @@
 }
 
 
-.header{ /*este esta bien, no borrar*/
+.header{ 
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0%;
     background-color: #000000;
-    
 
 }
 
-
+/*
  .contenedorlogo{
     display: inline-block;
     width: 45%;
@@ -45,7 +44,6 @@
 .navegacion{
     display: inline-block;
     width: 50%;
-    /*background-color: aqua;*/
     text-align: right;
     font-weight: 550;
 
@@ -68,7 +66,6 @@
     width: 50%;
     height: 30vh;
     margin: 0 auto;
-    /*background-color: pink;*/
     text-align: center;
     margin-top: 80px;
 
@@ -79,6 +76,7 @@
     font-size: 50px;
 
 }
+*/
 
 /*ICONO WHATSAPP*/
 
@@ -211,6 +209,7 @@
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .contenedor-servicios h2{
@@ -243,7 +242,7 @@
     
 
 
-/*Estilados de página TRABAJOS*/
+/*TRABAJOS*/
 
 .main-trabajos{
     padding-bottom: 50px;
@@ -268,7 +267,7 @@
 }
  
 
-/*Estilados Nosotros*/
+/*NOSOTROS*/
 
 .nosotros{
     background-color: aquamarine;
@@ -316,9 +315,6 @@
 .mapa-nosotros{
     margin: 0;
 }
-
-/*Estilos de sección TRABAJOS EN MAIN*/
-
 
 
 /*Estilados de FOOTER*/

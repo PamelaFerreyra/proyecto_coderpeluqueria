@@ -68,8 +68,6 @@
     padding: 50px;   
 }
 
-
-
 .nosotros-inicio h2{
     color:black;
     font-size: x-large;
@@ -88,6 +86,15 @@
     padding-left: 100px;
     padding-right: 50px;
 }
+
+/*@media screan and (min-width: 576px){
+    .sobre-nosotros-inicio p{
+        width: 90%;
+        padding: 0;
+        text-align: center;
+    }
+}*/
+
 
 /*Inicio: CONTACTANOS*/
 

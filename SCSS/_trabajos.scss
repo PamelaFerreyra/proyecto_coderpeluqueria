@@ -1,0 +1,24 @@
+/*TRABAJOS*/
+
+.main-trabajos{
+    padding-bottom: 50px;
+}
+.main-trabajos h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+  .imagen-galeria {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+.imagen-galeria:hover{
+    opacity:0.6;
+}
+ 

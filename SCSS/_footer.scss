@@ -1,0 +1,27 @@
+
+footer {
+    background-color: #000000;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+    .footer-datos{
+        .li{
+            font-size: small;
+            color: #ffffff83;
+            .i{
+                padding-left: 20px;
+                padding-right: 10px;
+              }
+        }
+    }
+    .social-iconos {
+         display: flex;
+         justify-content: center; 
+            .li {
+                margin-right: 30px;
+              }
+     }    
+}
+  
+  

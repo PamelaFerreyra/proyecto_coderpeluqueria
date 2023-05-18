@@ -1,13 +1,27 @@
 /*TRABAJOS*/
 
-.main-trabajos{
-    padding-bottom: 50px;
-}
-.main-trabajos h1{
+.main-trabajos {
+  padding-bottom: 50px;
+
+  h1 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-}
+
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      ;
+    }
+  }
+
+  .contenedor-galeria {
+    @media screen and (max-width: 768px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+
 
   .imagen-galeria {
     height: 300px;
@@ -16,9 +30,12 @@
     padding: 10px;
     opacity: 1;
     transition: opacity 0.5s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
   }
 
-.imagen-galeria:hover{
-    opacity:0.6;
+
 }
- 

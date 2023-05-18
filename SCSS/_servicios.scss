@@ -1,32 +1,38 @@
-/*SERVICIO*/
 
-.servicios h1{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+.servicios{
+    h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
 
-.contenedor-servicios{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-}
+    .contenedor-servicios{
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-top: 30px;
 
-.contenedor-servicios h2{
-    font-size: medium;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 50px;
-}
+        h2{
+            font-size: medium;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 50px;
+        }
+    }
 
-.trabajos-imagenes{
-    padding-top: 30px;
-    margin: auto !important;
-    width: fit-content;
-    align-items: center;
-}
+    .trabajos-imagenes{
+        padding-top: 30px;
+        margin: auto !important;
+        width: fit-content;
+        align-items: center;
 
-.trabajos-imagenes img{
-    object-fit: cover;
+        img{
+            object-fit: cover;
+
+            &:hover{
+                opacity:0.6;
+              }
+        }
+    }
+
 }

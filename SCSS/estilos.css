@@ -140,7 +140,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/*NOSOTROS*/
 .nosotros {
   background-color: rgb(255, 255, 255);
   padding-top: 50px;
@@ -149,44 +148,33 @@
 .contenedor-nosotros {
   padding: 30px;
 }
-
 .contenedor-nosotros p {
   text-align: justify;
 }
-
 .contenedor-nosotros i {
   padding-right: 15px;
   padding-top: 5px;
 }
-
-.boton-nosotros {
+.contenedor-nosotros .boton-nosotros {
   padding-top: 10px;
   display: flex;
   justify-content: center;
 }
-
-.mapa-nosotros {
+.contenedor-nosotros .mapa-nosotros {
   padding-top: 50px;
   display: flex;
   justify-content: flex-end;
 }
 
-/*Inicio: CONTACTANOS*/
 .contactanos-inicio {
   padding-top: 50px;
   background-color: #000000;
 }
-
 .contactanos-inicio h2 {
   text-align: center;
   color: #fff;
 }
-
-.contactanos-inicio p {
-  text-align: center;
-}
-
-.redes-inicio {
+.contactanos-inicio .redes-inicio {
   text-align: center;
   height: 100px;
   padding-top: 30px;

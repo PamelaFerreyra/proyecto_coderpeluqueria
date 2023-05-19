@@ -1,33 +1,33 @@
 .trabajos-main {
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 50px;
+
+  h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: xx-large;
+  }
+
+  width: 100%;
+  text-align: center;
+}
+
+.col-lg-1 {
+  margin: auto !important;
+  width: fit-content;
+  align-items: center;
+
+  h2 {
+    font-size: medium;
     text-align: center;
-    display: inline-block;
+    padding-top: 10px;
     padding-bottom: 50px;
-  
-    h1 {
-      padding-top: 50px;
-      padding-bottom: 30px;
-      font-size: xx-large;
-    }
-  
-    width: 100%;
-    text-align: center;
   }
-  
-  .col-lg-1 {
-    margin: auto !important;
-    width: fit-content;
-    align-items: center;
-  
-    h2 {
-      font-size: medium;
-      text-align: center;
-      padding-top: 10px;
-      padding-bottom: 50px;
-    }
+}
+
+.seccion-trabajos-main {
+  img {
+    object-fit: cover;
   }
-  
-  .seccion-trabajos-main {
-    img {
-      object-fit: cover;
-    }
-  }
+}

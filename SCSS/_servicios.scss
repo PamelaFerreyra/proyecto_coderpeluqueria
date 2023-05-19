@@ -1,18 +1,17 @@
-
-.servicios{
-    h1{
+.servicios {
+    h1 {
         text-align: center;
         padding-top: 50px;
         padding-bottom: 50px
     }
 
-    .contenedor-servicios{
+    .contenedor-servicios {
         padding-right: 50px;
         padding-left: 50px;
         padding-bottom: 50px;
         padding-top: 30px;
 
-        h2{
+        h2 {
             font-size: medium;
             text-align: center;
             padding-top: 10px;
@@ -20,18 +19,18 @@
         }
     }
 
-    .trabajos-imagenes{
+    .trabajos-imagenes {
         padding-top: 30px;
         margin: auto !important;
         width: fit-content;
         align-items: center;
 
-        img{
+        img {
             object-fit: cover;
 
-            &:hover{
-                opacity:0.6;
-              }
+            &:hover {
+                opacity: 0.6;
+            }
         }
     }
 

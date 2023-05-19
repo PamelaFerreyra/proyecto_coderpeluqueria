@@ -1,32 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&display=swap"); /*TRABAJOS*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&display=swap");
+
+/*TRABAJOS*/
 .main-trabajos {
   padding-bottom: 50px;
 }
+
 .main-trabajos h1 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
 }
+
 @media screen and (max-width: 768px) {
   .main-trabajos h1 {
     align-items: center;
   }
 }
+
 @media screen and (max-width: 768px) {
   .main-trabajos .contenedor-galeria {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
+
 .main-trabajos .imagen-galeria {
   height: 300px;
   width: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   padding: 10px;
   opacity: 1;
   transition: opacity 0.5s ease;
 }
+
 .main-trabajos .imagen-galeria:hover {
   opacity: 0.6;
 }
@@ -36,18 +43,21 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .servicios .contenedor-servicios {
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 50px;
   padding-top: 30px;
 }
+
 .servicios .contenedor-servicios h2 {
   font-size: medium;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 50px;
 }
+
 .servicios .trabajos-imagenes {
   padding-top: 30px;
   margin: auto !important;
@@ -55,10 +65,12 @@
   width: fit-content;
   align-items: center;
 }
+
 .servicios .trabajos-imagenes img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 .servicios .trabajos-imagenes img:hover {
   opacity: 0.6;
 }
@@ -70,6 +82,7 @@
   width: 100%;
   text-align: center;
 }
+
 .trabajos-main h1 {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -82,6 +95,7 @@
   width: fit-content;
   align-items: center;
 }
+
 .col-lg-1 h2 {
   font-size: medium;
   text-align: center;
@@ -91,12 +105,13 @@
 
 .seccion-trabajos-main img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .nosotros-inicio {
   padding: 50px;
 }
+
 .nosotros-inicio h2 {
   color: black;
   font-size: x-large;
@@ -105,12 +120,14 @@
   padding-left: 50px;
   text-align: center;
 }
+
 @media screen and (max-width: 768px) {
   .nosotros-inicio h2 {
     padding-left: 0;
     padding-right: 0;
   }
 }
+
 .nosotros-inicio p {
   color: black;
   font-size: medium;
@@ -120,12 +137,14 @@
   padding-left: 100px;
   padding-right: 50px;
 }
+
 @media screen and (max-width: 768px) {
   .nosotros-inicio p {
     padding-left: 0;
     padding-right: 0;
   }
 }
+
 @media screen and (max-width: 768px) {
   .nosotros-inicio img {
     align-items: center;
@@ -148,18 +167,22 @@
 .contenedor-nosotros {
   padding: 30px;
 }
+
 .contenedor-nosotros p {
   text-align: justify;
 }
+
 .contenedor-nosotros i {
   padding-right: 15px;
   padding-top: 5px;
 }
+
 .contenedor-nosotros .boton-nosotros {
   padding-top: 10px;
   display: flex;
   justify-content: center;
 }
+
 .contenedor-nosotros .mapa-nosotros {
   padding-top: 50px;
   display: flex;
@@ -170,10 +193,12 @@
   padding-top: 50px;
   background-color: #000000;
 }
+
 .contactanos-inicio h2 {
   text-align: center;
   color: #fff;
 }
+
 .contactanos-inicio .redes-inicio {
   text-align: center;
   height: 100px;
@@ -190,36 +215,44 @@ footer {
   display: flex;
   justify-content: flex-end;
 }
+
 @media screen and (max-width: 768px) {
   footer img {
     padding-right: 80px;
     padding-left: 80px;
   }
 }
+
 footer .footer-datos li {
   font-size: small;
   color: rgb(197, 197, 197);
 }
+
 footer .footer-datos li span i {
   padding-left: 20px;
   padding-right: 10px;
 }
+
 @media screen and (max-width: 768px) {
   footer .footer-datos {
     align-items: center;
     padding-top: 20px;
   }
 }
+
 footer .social-iconos {
   display: flex;
   justify-content: center;
 }
+
 footer .social-iconos li {
   margin-right: 30px;
 }
+
 footer .social-iconos li i {
   color: rgb(197, 197, 197);
 }
+
 @media screen and (max-width: 768px) {
   footer .social-iconos li i {
     align-items: center;
@@ -231,4 +264,6 @@ footer .social-iconos li i {
 .contacto {
   padding-top: 50px;
   padding-bottom: 50px;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
